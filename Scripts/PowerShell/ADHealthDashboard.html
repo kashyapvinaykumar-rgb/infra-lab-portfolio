@@ -1,0 +1,80 @@
+﻿<html><head><title>AD Health Dashboard - DC=corp,DC=lab</title>
+<style>body{font-family:Segoe UI,Arial;font-size:12px;} h2{color:#003366;} table{border-collapse:collapse;} th,td{border:1px solid #ccc;padding:4px 8px;} th{background:#e0e7f1;}</style>
+</head><body>
+<h2>AD Health & Security Dashboard - DC=corp,DC=lab</h2>
+<p>Generated: 12/24/2025 00:28:45</p>
+<h3>Status</h3>
+<p><b>Overall status:</b> Warning</p>
+<ul>
+<li>Domain controller / DNS issues</li>
+<li>Password hygiene issues</li>
+</ul>
+<h3>1) Computer Overview</h3>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Total computers</td><td>1805</td></tr>
+<tr><td>Enabled</td><td>1805</td></tr>
+<tr><td>Disabled</td><td>0</td></tr>
+<tr><td>In CN=Computers</td><td>0</td></tr>
+<tr><td>In CORP-Workstations</td><td>3</td></tr>
+<tr><td>In CORP-Servers</td><td>0</td></tr>
+<tr><td>In CORP-Stale-Computers</td><td>0</td></tr>
+<tr><td>In Domain Controllers OU</td><td>2</td></tr>
+</table>
+<h3>2) OS Distribution</h3>
+<table>
+<tr><th>OS Category</th><th>Count</th></tr>
+<tr><td>Windows 10</td><td>363</td></tr>
+<tr><td>Windows 11</td><td>360</td></tr>
+<tr><td>Windows Server 2016+</td><td>1082</td></tr>
+<tr><td>Other / Unknown</td><td>0</td></tr>
+</table>
+<h3>3) Stale Summary (computers, cutoff: 2025-10-25)</h3>
+<p>Stale workstations: 0 | Stale servers: 0 | In Stale OU: 0</p>
+<h3>4) User Overview (created / disabled / deleted)</h3>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Total users</td><td>5016</td></tr>
+<tr><td>Enabled users</td><td>5013</td></tr>
+<tr><td>Disabled users</td><td>3</td></tr>
+<tr><td>Users created 0-15 days</td><td>5001</td></tr>
+<tr><td>Users created 16-30 days</td><td>12</td></tr>
+<tr><td>Users created 31-45 days</td><td>3</td></tr>
+<tr><td>Deleted users 0-15 days</td><td>0</td></tr>
+<tr><td>Deleted users 16-30 days</td><td>8</td></tr>
+<tr><td>Deleted users 31-45 days</td><td>0</td></tr>
+<tr><td>Locked-out users</td><td>0</td></tr>
+</table>
+<h3>5) Password Last Changed & Expiry</h3>
+<table>
+<tr><th>Bucket</th><th>Count</th></tr>
+<tr><td>Password changed 0-15 days</td><td>5002</td></tr>
+<tr><td>Password changed 16-30 days</td><td>11</td></tr>
+<tr><td>Password changed 31-45 days</td><td>2</td></tr>
+<tr><td>Password &gt; 365 days old</td><td>0</td></tr>
+<tr><td>PasswordNeverExpires users</td><td>5014</td></tr>
+</table>
+<p>Total enabled users with expiring passwords: </p>
+<p>Passwords expiring in next 30 days: </p>
+<p>Passwords already expired: 0</p>
+<h3>6) Privileged Groups</h3>
+<table>
+<tr><th>Group</th><th>User members</th></tr>
+<tr><td>Domain Admins</td><td>3</td></tr>
+<tr><td>Enterprise Admins</td><td>3</td></tr>
+<tr><td>Schema Admins</td><td></td></tr>
+<tr><td>Administrators</td><td>3</td></tr>
+<tr><td>Account Operators</td><td>0</td></tr>
+<tr><td>Server Operators</td><td>0</td></tr>
+<tr><td>Backup Operators</td><td>0</td></tr>
+</table>
+<h3>7) Domain Controller Health</h3>
+<table>
+<tr><th>DC</th><th>OS</th><th>Site</th><th>IPv4</th><th>Uptime (days)</th></tr>
+<tr><td>DC01.corp.lab</td><td>Windows Server 2019 Standard</td><td>Default-First-Site-Name</td><td>10.10.10.10</td><td>1</td></tr>
+<tr><td>DC2-SRV-2022.corp.lab</td><td>Windows Server 2022 Standard Evaluation</td><td>Default-First-Site-Name</td><td>10.10.10.11</td><td>0</td></tr>
+</table>
+<h3>8) DNS SRV / dcdiag Summary</h3>
+<p>_ldap._tcp.dc._msdcs SRV resolution OK: True</p>
+<p>DCs with dcdiag issues (non-silent): 2</p>
+</body></html>

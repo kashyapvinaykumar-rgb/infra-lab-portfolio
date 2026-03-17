@@ -1,0 +1,44 @@
+2025-11-26 23:19:46 INFO  SCRIPT     Run started.
+2025-11-26 23:19:46 INFO  SCRIPT     Run completed.
+2025-11-26 23:20:04 INFO  SCRIPT     Run started.
+2025-11-26 23:20:04 INFO  SCRIPT     Run completed.
+2025-11-26 23:20:42 INFO  SCRIPT     Run started.
+2025-11-26 23:20:42 INFO  SCRIPT     Run completed.
+2025-12-08 20:20:56 INFO  STALE-MANAGE    Run started. Cutoff = 2025-10-09
+2025-12-08 20:20:56 INFO  STALE-MANAGE    Run completed.
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Run started. Cutoff = 2025-12-01
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Marking DC01 as stale (last activity: 2025-12-01), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Marking WIN10-CLI01 as stale (last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Marking WIN10-CLI02 as stale (last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Marking WIN10-CLI03 as stale (last activity: 2025-11-25), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 20:22:45 INFO  STALE-MANAGE    Run completed.
+2025-12-08 21:33:10 INFO  STALE-MANAGE    Run started. Cutoff = 2025-10-09
+2025-12-08 21:33:10 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-08 21:33:10 INFO  STALE-MANAGE    Run completed.
+2025-12-08 21:33:39 INFO  STALE-MANAGE    Run started. Cutoff = 2025-10-09
+2025-12-08 21:33:39 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-08 21:33:39 INFO  STALE-MANAGE    Run completed.
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Run started. Cutoff = 2025-12-01
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Marking WIN10-CLI01 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Marking WIN10-CLI02 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Marking WIN10-CLI03 as stale (OS: Windows 10 Pro, last activity: 2025-11-25), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-08 21:34:29 INFO  STALE-MANAGE    Run completed.
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Run started. Cutoff = 2025-12-01
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Marking WIN10-CLI01 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Marking WIN10-CLI02 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Marking WIN10-CLI03 as stale (OS: Windows 10 Pro, last activity: 2025-11-25), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 12:17:14 INFO  STALE-MANAGE    Run completed.
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Run started. Cutoff = 2025-12-01
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Marking WIN10-CLI01 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Marking WIN10-CLI02 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Marking WIN10-CLI03 as stale (OS: Windows 10 Pro, last activity: 2025-11-25), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-16 13:23:02 INFO  STALE-MANAGE    Run completed.
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Run started. Cutoff = 2025-12-07
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Server DC01 (OS: Windows Server 2019 Standard) is older-OS candidate. Logging only, no stale move.
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Marking WIN10-CLI01 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Marking WIN10-CLI02 as stale (OS: Windows 10 Pro, last activity: 2025-11-24), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Marking WIN10-CLI03 as stale (OS: Windows 10 Pro, last activity: 2025-11-25), moving to OU=CORP-Stale-Computers,DC=corp,DC=lab
+2025-12-22 16:10:08 INFO  STALE-MANAGE    Run completed.
