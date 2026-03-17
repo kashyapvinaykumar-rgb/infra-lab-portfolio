@@ -1,0 +1,17 @@
+New-ADUser -Name "Lab User2" ` -GivenName Lab ` -Surname User2 ` -SamAccountName labuser2 ` -UserPrincipalName labuser2@corp.lab ` -Path "OU=IT,DC=corp,DC=lab" ` -AccountPassword (ConvertTo-SecureString "Password@12" -AsPlainText -Force) ` -Enabled $true
+
+Add-ADGroupMember "Domain Admins" corpadmin 
+
+Add-ADGroupMember -Identity "Domain Admins" -Members corpadmin,corpadmin2
+
+Get-ADGroupMember "Domain Admins"
+
+Get-ADGroupMember "Domain Admins" | Select Name
+
+w32tm /config /manualpeerlist:"10.10.10.1" /syncfromflags:manual /reliable:yes /update
+
+w32tm /stripchart /computer:10.10.10.1 /samples:5 /dataonly
+
+w32tm /unregister
+w32tm /register
+net start w32time
